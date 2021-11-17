@@ -1,0 +1,33 @@
+* {
+  margin:0; padding:0;
+}
+
+body {
+  background-color: pink;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fa-heart {
+  font-size: 200px;
+  color: red;
+}
+
+.pulsating {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  10% {
+    font-size: 175px;
+    color:rgb(233, 13, 49);
+    text-shadow: #FC0 1px 0 10px;
+  }
+}
