@@ -1,5 +1,6 @@
 * {
-  margin:0; padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -18,16 +19,21 @@ div {
   color: red;
 }
 
+/* animation-name ska vara namnet på en @keyframes*/
 .pulsating {
   animation-name: pulse;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
+/* 
+  @keyframes styr hur vissa nyckel-frames (bilder) ska se ut.
+  Webbläsaren animerar övergången mellan keyframes. 
+*/
 @keyframes pulse {
   10% {
     font-size: 175px;
-    color:rgb(233, 13, 49);
-    text-shadow: #FC0 1px 0 10px;
+    color: rgb(233, 13, 49);
+    text-shadow: #fc0 1px 0 10px;
   }
 }

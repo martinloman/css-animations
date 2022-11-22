@@ -1,3 +1,7 @@
+/* 
+  transition gör att css-förändringar vid t.ex.
+  :hover tar lite tid och animeras.  
+*/
 div {
   width: 100px;
   height: 100px;
