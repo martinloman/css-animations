@@ -33,7 +33,5 @@ div {
 @keyframes pulse {
   10% {
     transform: scale(0.8); /* krymper hjärtat något, så det "slår" */
-    color: rgb(233, 13, 49);
-    text-shadow: #fc0 1px 0 10px;
   }
 }
